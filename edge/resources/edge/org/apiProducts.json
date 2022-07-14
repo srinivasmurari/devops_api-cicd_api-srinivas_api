@@ -1,0 +1,29 @@
+[
+    {
+        "name": "srinivas_apiProduct",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "srinivas_apiProduct"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "srinivas_apiProduct",
+        "displayName": "srinivas_apiProduct",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "devops_api-cicd_api-srinivas_api"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]

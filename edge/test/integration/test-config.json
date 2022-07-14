@@ -1,0 +1,12 @@
+{
+	"domains": {
+		"dev": "https://${org}-${env}.apigee.net"
+	},
+	"devops_api-cicd_api-srinivas_api": {
+		"basepath": "/v1/srinivas_api",
+		"product":"srinivas_apiProduct",
+		"app":"srinivas_apiApp",
+		"org":"${org}",
+		"env":"${env}"
+	}
+}
